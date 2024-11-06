@@ -232,7 +232,7 @@ body{
     }
     .item1{
         min-width: 30%;
-        padding: 35px 30px;
+        padding: 40px 30px;
         box-sizing: border-box;
         background: linear-gradient(90deg,#B41D6C, #2A114B) ;
         border: none;
@@ -250,7 +250,7 @@ body{
     }
     .item2{
         min-width: 30%;
-        padding: 30px 30px;
+        padding: 40px 30px;
         box-sizing: border-box;
         background: linear-gradient(90deg,#844D93, #2A114B) ;
         border: none;
@@ -268,7 +268,7 @@ body{
     }
     .item3{
         min-width: 30%;
-        padding: 30px 30px;
+        padding: 40px 30px;
         box-sizing: border-box;
         background: linear-gradient(90deg,#4848D8, #2A114B) ;
         border: none;
@@ -286,7 +286,7 @@ body{
     }
     .item4{
         min-width: 30%;
-        padding: 30px 30px;
+        padding: 40px 30px;
         box-sizing: border-box;
         background: linear-gradient(90deg,#FEB500, #2A114B) ;
         border: none;
@@ -304,7 +304,7 @@ body{
     }
     .item5{
         min-width: 30%;
-        padding: 30px 30px;
+        padding: 40px 30px;
         box-sizing: border-box;
         background: linear-gradient(90deg,#FCE6D9, #2A114B) ;
         border: none;
@@ -319,4 +319,47 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    .linha{
+        background-color: white;
+        height: 2px;
+        width: 30%;
+        display: flex;
+        justify-content: end;
+        margin-left: 75%;
+        margin-top: 180px;
+    }
+    .linha2{
+        background-color: white;
+        height: 2px;
+        width: 30%;
+        display: flex;
+        justify-content: end;
+        margin-top: 100px;
+    }
+    .frase{
+        font-family: "mont2";
+        color: white;
+        font-weight: 100;
+        margin: 80px 70px;
+        font-size: 30px;
+    }
+    .frase span{
+        font-family: "mont";
+        font-weight: 200;
+    }
+    .autora{
+        display: flex;
+        justify-content: end;
+        margin-top: 25px;
+    }
+    .livro1{
+        background-color: #844d933c;
+        width: 1150px;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border-radius: 20px;
     }
