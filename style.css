@@ -42,7 +42,7 @@ overflow-x: hidden;
 }
 
 body {
-    background-image: url(./img/fundoLiteratura.png);
+    background-image: url(./img-Literatura/fundoLiteratura.png);
     background-size: cover;
 }
 
@@ -382,6 +382,7 @@ box-shadow: 0px 0px 128px 45px rgba(119,58,150,0.68);
         justify-content: space-between;
         padding: 25px;
         margin-top: 45px;
+        margin-right: 65px;
     }
     .info1{
         display: flex;
@@ -390,6 +391,14 @@ box-shadow: 0px 0px 128px 45px rgba(119,58,150,0.68);
         width: 310px;
         margin-bottom: 45px;
     }
+    .info3{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 350px;
+        margin-bottom: 45px;
+    }
+
     .autor{
         font-size: 35px;
     }
@@ -415,4 +424,165 @@ box-shadow: 0px 0px 128px 45px rgba(119,58,150,0.68);
         width: 140px;
         height: 40px;
         border-radius: 45px;
+    }
+    .livro-infos2{
+        background-color: #844d9342;
+        -webkit-box-shadow:0px 0px 128px 45px rgba(119,58,150,0.68);
+-moz-box-shadow: 0px 0px 128px 45px rgba(119,58,150,0.68);
+box-shadow: 0px 0px 128px 45px rgba(119,58,150,0.68);
+        width: 1350px;
+        height: 450px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        margin-left: 84px;
+    }
+    .book2{
+        margin: 40px;
+    }
+    .infos2{
+        color: white;
+        font-family: "mont3";
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 25px;
+        margin-top: 45px;
+        margin-left: 50px;
+    }
+    .info11{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 310px;
+        margin-bottom: 45px;
+    }
+    .info4{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 220px;
+        margin-bottom: 45px;
+    }
+
+    .info222{
+        display: flex;
+        justify-content: end;
+    }
+    .autor{
+        font-size: 35px;
+    }
+    .perfil{
+        height: 45px;
+        width: 45px;
+    }
+    .desc{
+        font-size: 24px;
+        font-family: "mont2";
+        font-weight: 100;
+        display: flex;
+        justify-content: end;
+    }
+    .saiba2{
+        display: flex;
+        justify-content: start;
+        margin: 15px;   
+        margin-top: 50px;     
+    }
+    .botao{
+        background: linear-gradient(90deg,#B41D6C, #2A114B) ;
+        color: white;
+        font-family: "mont2";
+        width: 140px;
+        height: 40px;
+        border-radius: 45px;
+    }
+    footer {
+        background-color: #2A114B;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        margin-top: 150px;
+    }
+    
+    .logo1 {
+        font-family: "mont";
+        color: white;
+        width: 190px;
+        height: 45px;
+        text-align: center;
+        display: flex ;
+        font-size: 25px;
+        font-weight: 400;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-right: 40px;
+        padding-top: 10px;
+       }
+    
+       .bolha1 {
+        width: 60px;
+        height: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .ParteDeCimaRodape{
+        display: flex;
+        flex-direction: row;
+        padding-left: 90px;
+    
+    }
+    
+    .pag1 {
+    color: #844D93;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 605;
+    font-family: "mont4";
+    letter-spacing: 2px;
+    transition: none;
+    }
+    
+    .pag1:hover {
+        font-size: 20px;
+    }
+    
+    .redes {
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    }
+    
+    .fim {
+        height: 10px;
+        width: 100%;
+        background-color: #1A0436;
+        padding-bottom: 15px;
+    }
+    
+    .textosRodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .PoliticaDePrivacidade {
+        font-size: 10px;
+        padding-top: 5px;
+        width: 250px;
+        margin-right: -105px;
+        color: white;
+    }
+    .Copyright {
+        font-size: 10px;
+        padding-top: 5px;
+        width: 250px;
+        margin-left: 40px;
+        color: white;
     }
