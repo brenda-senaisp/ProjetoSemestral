@@ -59,6 +59,7 @@ padding-right: 20px;
 .bolha {
 width: 90px;
 height: 75px;
+margin-left: 50px;
 }
 
 .conjuto {
@@ -81,20 +82,21 @@ padding-top: 10px;
 
 }
 
-.barraPesquisa {
+#barraPesquisa {
 width: 700px;
 height: 53.79px;
-background-image: url(./img/barradepesquisa.png);
-margin:90px;
+background-image: url(img/barradepesquisa.png);
+margin: 90px;
 border-radius: 18px;
-display: flex;
-justify-content: right;
 padding-right: 20px;
-align-items: center;  
 margin-left: 150px;
 background-size: cover;
 }
 
+#barraPesquisa::-webkit-input-placeholder{
+    color:#ffffff98;
+    font-size:15px;
+}
 input {
 color: white;
 font-family: "mont2";
@@ -112,12 +114,12 @@ justify-content: center;
 width: 51px;
 height: 52px;
 border-radius: 18px;
-background-image: url(./img/Perfill.png);
+background-image: url(img/perfill.png);
 display: flex;
 align-items: center;
 justify-items: center;
 justify-content: center;
-margin-left: 70px;
+margin-right: 30px;
 background-size: cover;
 color: rgba(255, 255, 255, 0);
 }
@@ -131,7 +133,8 @@ display: flex;
 align-items: center;
 justify-items: center;
 justify-content: center;
-margin-left: -10px;
+margin-left: -15px;
+margin-top: 6px;
 }
 
 header .baixo {
@@ -145,7 +148,7 @@ justify-content: center;
 .baixo a{
 color: white;
 margin: 55px;
-font-size: 20px;
+font-size: 15px;
 margin-top: 25px;
 text-decoration: none;
 font-weight: 605;
@@ -155,9 +158,8 @@ transition: ease-in-out 0.3s;
 }
 
 a:hover {
-font-size: 25px;
+font-size: 18px;
 }
-
 body{
     background-color: #1A0436;
 }
@@ -209,15 +211,15 @@ body{
 }
 .gradiente {
     position: absolute;
-    bottom: -45px;
+    bottom: -55px;
     left: 18px;
     right: -40px;
     width: 100%;
-    height: 20%; 
+    height: 25%; 
     background: linear-gradient(to top,#1A0436, #29083d,  transparent);
     pointer-events: none; 
     backdrop-filter: blur(1px); /* Efeito de desfoque leve */
-    -webkit-backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(5px);
     border-style: none;
     }
     .carrosel-container{
@@ -355,7 +357,10 @@ body{
         margin-top: 25px;
     }
     .livro-infos{
-        background-color: #844d933c;
+        background-color: #844d9342;
+        -webkit-box-shadow:0px 0px 128px 45px rgba(119,58,150,0.68);
+-moz-box-shadow: 0px 0px 128px 45px rgba(119,58,150,0.68);
+box-shadow: 0px 0px 128px 45px rgba(119,58,150,0.68);
         width: 1350px;
         height: 450px;
         border-radius: 20px;
@@ -363,7 +368,7 @@ body{
         justify-content: center;
         align-items: center;
         margin-top: 80px;
-        margin-left: 76px;
+        margin-left: 84px;
     }
     .book{
         margin: 40px;
@@ -375,15 +380,39 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding: 25px;
+        margin-top: 45px;
     }
     .info1{
         display: flex;
-        flex-direction: row;
-        justify-content: start;
         align-items: center;
+        justify-content: space-around;
+        width: 310px;
+        margin-bottom: 45px;
     }
-    .info2{
+    .autor{
+        font-size: 35px;
+    }
+    .perfil{
+        height: 45px;
+        width: 45px;
+    }
+    .desc{
+        font-size: 24px;
         font-family: "mont2";
-        font-weight: lighter;
         font-weight: 100;
+    }
+    .saiba{
+        display: flex;
+        justify-content: end;
+        margin: 15px;   
+        margin-top: 50px;     
+    }
+    .botao{
+        background: linear-gradient(90deg,#B41D6C, #2A114B) ;
+        color: white;
+        font-family: "mont2";
+        width: 140px;
+        height: 40px;
+        border-radius: 45px;
     }
