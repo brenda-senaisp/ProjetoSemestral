@@ -231,6 +231,17 @@ body{
     .carrosel {
         display: flex;
         transition: transform 0.3s ease;
+        overflow-x: auto;
+    }
+    .carrosel::-webkit-scrollbar {
+        display: none;
+      }
+    .oculto{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        padding: 0;
+        margin: 0;
     }
     .item1{
         min-width: 30%;
@@ -398,6 +409,14 @@ box-shadow: 0px 0px 128px 45px rgba(119,58,150,0.68);
         width: 350px;
         margin-bottom: 45px;
     }
+    .info7{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 310px;
+        margin-bottom: 45px;
+    }
+
 
     .autor{
         font-size: 35px;
@@ -464,9 +483,24 @@ box-shadow: 0px 0px 128px 45px rgba(119,58,150,0.68);
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 220px;
+        width: 230px;
         margin-bottom: 45px;
     }
+    .info5{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 195px;
+        margin-bottom: 45px;
+    }
+    .info6{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 265px;
+        margin-bottom: 45px;
+    }
+
 
     .info222{
         display: flex;
