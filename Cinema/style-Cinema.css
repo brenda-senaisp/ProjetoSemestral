@@ -173,3 +173,15 @@ font-size: 18px;
 .banner img{
     width: 1520px;
 }
+.filtro{
+    border-radius: 20px;
+    background: linear-gradient(#844d9369,#1a04364d ,#1A0436);
+    width: 640px;
+    height: 350px;
+}
+.destaque1 img{
+    border-radius: 20px;
+    z-index: -1;
+    position: relative;
+    top: -355px;
+}
