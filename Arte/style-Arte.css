@@ -337,12 +337,13 @@ font-size: 18px;
     font-family: "mont4";
     font-size: 64px;
     position: relative;
-    right: -54%;
+    text-align: right;
 }
 .descricao{
     font-family: "mont2";
     font-weight: 100;
-    font-size: 32px;
+    font-size: 28px;
+    text-align: right;
 }
 .img1 img{
     width: 300px;
@@ -367,13 +368,15 @@ box-shadow: 0px 0px 140px 45px rgba(192,122,222,0.34);
 }
 .info{
     margin: 50px;
+    position: relative;
+    top: -50px;
 }
 .linhaArte{
     background-color: white;
     height: 2.5px;
     width: 400px;
     position: relative;
-    top: 15px;
+    top: 20px;
     z-index: -1;
 }
 .estrela img{
@@ -393,8 +396,214 @@ box-shadow: 0px 0px 140px 45px rgba(192,122,222,0.34);
     width: 140px;
     height: 40px;
     border-radius: 45px;
+    cursor: pointer;
 }
 .saiba{
     position: relative;
-    top: -20px;
+    top: 40px;
+    left: 70px;
+}
+.arte2{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    position: relative;
+    top: 500px;
+}
+.texto{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -8%;
+}
+.nome2{
+    font-family: "mont4";
+    font-size: 64px;
+    position: relative;
+}
+.descricao2{
+    font-family: "mont2";
+    font-weight: 100;
+    font-size: 28px;
+    text-align: left;
+}
+.img22 img{
+    width: 300px;
+    height: 450px;
+    border-radius: 34px;
+}
+.img22{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #844d93b3;
+    -webkit-box-shadow:0px 0px 140px 45px rgba(192,122,222,0.34);
+-moz-box-shadow: 0px 0px 140px 45px rgba(192,122,222,0.34);
+box-shadow: 0px 0px 140px 45px rgba(192,122,222,0.34);
+    width: 320px ;
+    height: 470px;
+    border-radius: 34px;
+}
+.saiba2{
+    display: flex;
+    justify-content: start;
+}
+.info2{
+    margin: 50px;
+    position: relative;
+    top: -50px;
+    right: 8%;
+}
+.linhaArte2{
+    background-color: white;
+    height: 2.5px;
+    width: 400px;
+    position: relative;
+    top: 25px;
+    right: 20%;
+    z-index: -1;
+}
+.estrela2 img{
+    height: 50px;
+    position: relative;
+    top:-6px;
+    left: 74%;
+}
+.artee{
+    position: relative;
+    right: -2%;
+}
+.botao2{
+    background: linear-gradient(90deg,#B41D6C, #2A114B) ;
+    color: white;
+    font-family: "mont2";
+    width: 140px;
+    height: 40px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.saiba2{
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+.arte3{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    position: relative;
+    top: 550px;
+    right: 2%;
+}
+.nome3{
+    font-family: "mont4";
+    font-size: 64px;
+    position: relative;
+    text-align: right;
+}
+.arte4{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    position: relative;
+    top: 600px;
+}
+.artista{
+    position: relative;
+    top: -35px;
+}
+.arte5{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    position: relative;
+    top: 670px;
+    right: 2%;
+}
+footer {
+    background-color: #2A114B;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 760px;
+}
+
+.logo1 {
+    font-family: "mont";
+    color: white;
+    width: 190px;
+    height: 45px;
+    text-align: center;
+    display: flex ;
+    font-size: 25px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-top: 10px;
+   }
+
+   .bolha1 {
+    width: 60px;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+.ParteDeCimaRodape{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+
+}
+
+.pag1 {
+color: #844D93;
+margin: 20px;
+font-size: 20px;
+text-decoration: none;
+font-weight: 605;
+font-family: "mont4";
+letter-spacing: 2px;
+transition: none;
+}
+
+.pag1:hover {
+    font-size: 20px;
+}
+
+.redes {
+padding-top: 40px;
+padding-left: 15px;
+padding-bottom: 25px;
+}
+
+.fim {
+    height: 10px;
+    width: 100%;
+    background-color: #1A0436;
+    padding-bottom: 15px;
+}
+
+.textosRodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.PoliticaDePrivacidade {
+    font-size: 10px;
+    padding-top: 5px;
+    width: 250px;
+    margin-right: -105px;
+    color: white;
+}
+.Copyright {
+    font-size: 10px;
+    padding-top: 5px;
+    width: 250px;
+    margin-left: 40px;
+    color: white;
 }
