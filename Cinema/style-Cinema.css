@@ -173,15 +173,73 @@ font-size: 18px;
 .banner img{
     width: 1520px;
 }
+.destaques{
+    display: flex;
+    justify-content: space-around;
+}
 .filtro{
     border-radius: 20px;
-    background: linear-gradient(#844d9369,#1a04364d ,#1A0436);
-    width: 640px;
-    height: 350px;
+    background: linear-gradient(#844d9369,#1a04364d ,#1a04364d);
+    width: 645px;
+    height: 360px;
+    position: relative;
+    top: 5px;
+}
+.destaque1{
+    position: relative;
+    left: 30px;
 }
 .destaque1 img{
     border-radius: 20px;
     z-index: -1;
     position: relative;
     top: -355px;
+}
+.nomes{
+    color: white;
+    position: relative;
+    bottom: 480px;
+    left: 30px;
+}
+.nomes h1{
+    font-family: "mont4";
+    padding-bottom: 6px;
+    font-size: 40px;
+}
+.nomes h3{
+    font-family: "mont2";
+    font-weight: 200;
+    font-size: 30px;
+}
+.informacao{
+    display: flex;
+    flex-direction: row;
+}
+.seta{
+    position: relative;
+    left: 320px;
+    bottom: 70px;
+}
+.destaque2 img{
+    border-radius: 20px;
+    z-index: -1;
+    position: relative;
+    top: -355px;
+}
+.destaque2{
+    position: relative;
+    left: 30px;
+}
+.filtro2{
+    border-radius: 20px;
+    background: linear-gradient(#feb60073,#1a04364d ,#1a04364d);
+    width: 646px;
+    height: 360.3px;
+    position: relative;
+    top: 5px;
+}
+.seta2{
+    position: relative;
+    left: 375px;
+    bottom: 70px;
 }
