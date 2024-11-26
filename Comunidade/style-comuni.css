@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "mont";
+    src: url(./font/SwilyBright-Italic.otf);
+}
+
+@font-face {
+    font-family: "mont2";
+    src: url(./font/CreatoDisplay-Light.otf);
+}
+
+@font-face {
+    font-family: "mont3";
+    src: url(./font/CreatoDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: "mont4";
+    src: url(./font/CreatoDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: "mont5";
+    src: url(./font/CreatoDisplay-Medium.otf);
+}
+
+header {
+background-color: #1A0436;
+height: 200px;
+display: flex;
+flex-direction: column;
+}
+
+body {
+overflow: scroll;
+overflow-x: hidden;
+}
+
+body {
+    background-image: url(./img-Comunidade/Fundo\ Comunidade.png);
+    background-size: cover;
+}
+
+.cima {
+background-color: #1A0436;
+height: 90px;
+padding-top:  20px;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+padding-right: 20px;
+}
+
+.bolha {
+width: 90px;
+height: 75px;
+margin-left: 50px;
+}
+
+.conjuto {
+display: flex;
+flex-direction: row;
+}
+
+.logo {
+font-family: "mont";
+color: white;
+width: 190px;
+height: 45px;
+text-align: center;
+display: flex ;
+font-size: 35px;
+font-weight: 400;
+align-items: center;
+justify-content: center;
+padding-top: 10px;
+
+}
+
+#barraPesquisa {
+width: 700px;
+height: 53.79px;
+background-image: url(img/barradepesquisa.png);
+margin: 90px;
+border-radius: 18px;
+padding-right: 20px;
+margin-left: 150px;
+background-size: cover;
+}
+
+#barraPesquisa::-webkit-input-placeholder{
+    color:#ffffff98;
+    font-size:15px;
+}
+input {
+color: white;
+font-family: "mont2";
+font-size: 15px;
+padding-left: 20px;
+}
+
+.barra {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.perfil a {
+width: 51px;
+height: 52px;
+border-radius: 18px;
+background-image: url(img/perfill.png);
+display: flex;
+align-items: center;
+justify-items: center;
+justify-content: center;
+margin-right: 30px;
+background-size: cover;
+color: rgba(255, 255, 255, 0);
+transition: ease-in-out 0.3s;
+}
+.perfil :hover{
+    transform: scale(1.1);
+}
+
+.notificacao{
+width: 51px;
+height: 52px;
+border-radius: 18px;
+background: linear-gradient(90deg, #B41D6C, #2A114B);
+display: flex;
+align-items: center;
+justify-items: center;
+justify-content: center;
+margin-left: -15px;
+transition: ease-in-out 0.3s;
+}
+.notificacao:hover{
+    transform: scale(1.1);
+}
+
+header .baixo {
+font-family: "mont2";
+display: flex;
+flex-direction: row;
+display: flex;
+justify-content: center;
+}
+
+.baixo a{
+color: white;
+margin: 55px;
+font-size: 15px;
+margin-top: 25px;
+text-decoration: none;
+font-weight: 605;
+font-family: "mont2";
+letter-spacing: 2px;
+transition: ease-in-out 0.3s;
+}
+
+a:hover {
+font-size: 18px;
+}
+.linha{
+    height: 2px;
+    width: 400px;
+    background-color: white;
+    position: relative;
+    left: 1150px;
+}
+.brilho{
+    width: 90px;
+    position: relative;
+    left: 1080px;
+    top: 50px;
+}
+.informacao{
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+.informacao h1{
+    font-family: "mont";
+    color: white;
+    font-weight: 100;
+    font-size: 64px;
+}
+.informacao h2{
+    font-family: "mont3";
+    color: white;
+    font-weight: 100;
+    font-size: 32px;
+    width: 1100px;
+    text-align: justify;
+    position: relative;
+    top: 40px;
+}
+.linha2{
+    height: 2px;
+    width: 400px;
+    background-color: white;
+    position: relative;
+    top: 250px;
+}
+.brilho2{
+    width: 90px;
+    position: relative;
+    top: 204px;
+    left: 350px;
+}
+.subT{
+    font-family: "mont4";
+    color: white;
+    font-weight: 800;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: end;
+    margin: 50px;
+    font-size: 35px;
+}
+.linha3{
+    height: 2px;
+    width: 800px;
+    background-color: white;
+    position: relative;
+    left: 800px;
+    top: 80px;
+}
+.brilho3{
+    width: 90px;
+    position: relative;
+    left: 750px;
+    top: 130px;
+}
+.destaques{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.destaque1 img{
+    width: 400px;
+    border-radius: 20px;
+}
+.filtro{
+    border-radius: 20px;
+    width: 400px;
+    height: 700px;
+    background: linear-gradient(#FCE6D9,#1a04369f ,#1a0436e4);
+    z-index: 1;
+    position: relative;
+    bottom: 700px;
+}
+.text h2{
+    font-family: "mont4";
+    color: white;
+    font-size: 42px;
+    position: relative;
+    bottom: 50px;
+    left: 15px;
+
+}
+.text h3{
+    font-family: "mont2";
+    color: white;
+    font-weight: 100;
+    width: 320px;
+    position: relative;
+    bottom: 40px;
+    left: 15px;
+    font-size: 24px;
+
+}
+.seta h1{
+    color: white;
+    font-weight: 100;
+    position: relative;
+    top: 70px;
+    right: 30px;
+    font-weight: 500;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 840px;
+    z-index: 1;
+}
+.filtro2{
+    border-radius: 20px;
+    width: 400px;
+    height: 700px;
+    background: linear-gradient(#4848D8,#1a04369f ,#1a0436e4);
+    z-index: 1;
+    position: relative;
+    bottom: 700px;
+}
+.info2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 895px;
+    z-index: 1;
+}
+.destaque2 img{
+    width: 400px;
+    height: 720px;
+    border-radius: 20px;
+}
+.destaque2{
+    position: relative;
+    top: 25px;
+}
