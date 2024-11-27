@@ -242,22 +242,31 @@ font-size: 18px;
 .destaques{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     position: relative;
-    top: 150px;
+    top: 200px;
+    height: 650px;
 }
 .destaque1 img{
     width: 400px;
+    height: 720px;
     border-radius: 20px;
+}
+.destaque1 {
+    position: relative;
+    top: 17px;
+    transition: transform 0.3s ease-in-out;
+}
+.destaque1:hover{
+    transform: scale(1.1);
 }
 .filtro{
     border-radius: 20px;
     width: 400px;
-    height: 700px;
+    height: 740px;
     background: linear-gradient(#FCE6D9,#1a04369f ,#1a0436e4);
     z-index: 1;
     position: relative;
-    bottom: 700px;
+    bottom: 740px;
 }
 .text h2{
     font-family: "mont4";
@@ -286,36 +295,148 @@ font-size: 18px;
     top: 70px;
     right: 30px;
     font-weight: 500;
+    cursor: pointer;
 }
 .info{
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: 840px;
+    bottom: 880px;
     z-index: 1;
 }
 .filtro2{
     border-radius: 20px;
     width: 400px;
-    height: 700px;
-    background: linear-gradient(#4848D8,#1a04369f ,#1a0436e4);
+    height: 740px;
+    background: linear-gradient(#844D93,#1a04369f ,#1a0436e4);
     z-index: 1;
     position: relative;
-    bottom: 700px;
+    bottom: 740px;
 }
 .info2{
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: 895px;
+    bottom: 922px;
     z-index: 1;
 }
 .destaque2 img{
     width: 400px;
-    height: 720px;
+    height: 736px;
     border-radius: 20px;
 }
 .destaque2{
+    transition: transform 0.3s ease-in-out;
+}
+.destaque2:hover{
+    transform: scale(1.1);
+}
+
+.seta2 h1{
+    color: white;
+    font-weight: 100;
     position: relative;
-    top: 25px;
+    top: 105px;
+    right: 24px;
+    font-weight: 500;
+}
+.filtro3{
+    border-radius: 20px;
+    width: 400px;
+    height: 736px;
+    background: linear-gradient(#4848D8,#1a04369f ,#1a0436e4);
+    z-index: 1;
+    position: relative;
+    bottom: 740px;
+}
+.subt2 h1{
+    font-family: "mont4";
+    color: white;
+}
+.subt2{
+    position: relative;
+    top: 360px;
+    font-size: 28px;
+    margin: 50px;
+}
+.linha4{
+    height: 2px;
+    width: 990px;
+    background-color: white;
+    position: relative;
+    top: 330px;
+}
+.brilho4{
+    width: 90px;
+    position: relative;
+    top: 284px;
+    left: 950px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 340px;
+
+}
+.fileira1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.foto1{
+    border-radius: 20px;
+    width: 450px;
+    -webkit-box-shadow:0px 0px 105px 45px rgba(179,122,207,0.54);
+-moz-box-shadow: 0px 0px 105px 45px rgba(179,122,207,0.54);
+box-shadow: 0px 0px 105px 45px rgba(179,122,207,0.54);
+}
+.efeito1{
+    border-radius: 20px;
+    z-index: 1;
+    width: 450px;
+    height: 382px;
+    position: relative;
+    top: 382px;
+    background: linear-gradient(#1a04366d,#4848d800,#4848d800 ); 
+
+}
+.foto2{
+    border-radius: 20px;
+    width: 780px;
+    -webkit-box-shadow:0px 0px 105px 45px rgba(72,10,135,0.54);
+-moz-box-shadow: 0px 0px 105px 45px rgba(72,10,135,0.54);
+box-shadow: 0px 0px 105px 45px rgba(72,10,135,0.54);
+}
+.post1{
+    position: relative;
+    right: 70px;
+}
+.post2{
+    position: relative;
+    left: 40px;
+}
+.fileira1 h2{
+    font-family: "mont4";
+    color: white;
+    font-size: 32px;
+}
+.itens{
+    z-index: 1;
+}
+.nome1{
+    position: relative;
+    bottom: 350px;
+    left: 20px;
+    z-index: 1;
+}
+.like1{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 110px;
+    right: 10px;
 }
