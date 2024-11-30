@@ -216,12 +216,28 @@
         </div>
         </div>
         <div class="textBox">
-        <textarea class="escrever" placeholder="Digite algo aqui..." type="text" data-lt-tmp-id="lt-83032" spellcheck="false" data-gramm="false"> </textarea>
+        <textarea id="escrever" placeholder="Digite algo aqui..." type="text" data-lt-tmp-id="lt-83032" spellcheck="false" data-gramm="false"> </textarea>
     </div>
         <div class="enter">
-            <button class="botao">ENVIAR</button>
+            <button class="botao" onclick="enviado()">ENVIAR</button>
         </div>
     </div>
     
+    <script>
+ function enviado() {
+            const textarea = document.getElementById("escrever"); 
+            const mensagem = textarea.value.trim(); // Obtém o valor da mensagem e remove espaços extras
+
+            if (mensagem === "") {
+                // Se a mensagem estiver vazia, exibe um alerta
+                alert("A mensagem está vazia! Por favor, escreva algo.");
+            } else {
+                // Caso contrário, exibe o alerta de envio e limpa a textarea
+                alert("A mensagem foi enviada!");
+                textarea.value = ""; // Limpa o conteúdo da textarea
+            }
+        }    
+    
+    </script>
 </body>
 </html>
