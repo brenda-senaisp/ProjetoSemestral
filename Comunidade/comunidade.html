@@ -210,9 +210,7 @@
             <h2>@USER2024</h2>
         </div>
         <div class="anexos">
-        <h1 class="pontos">. . .</h1>           
-        <img src="img-Comunidade/anexar.png" alt="">
-        <img class="descarregar" src="img-Comunidade/descarregar.png" alt="">
+            <input type="file" id="arquivo">
         </div>
         </div>
         <div class="textBox">
@@ -222,10 +220,37 @@
             <button class="botao" onclick="enviado()">ENVIAR</button>
         </div>
     </div>
-    
+    <footer>
+        <div class="ParteDeCimaRodape">
+        <div class="logo1">
+            <img class="bolha1"src="./img/bolha.png" alt="">
+        <h4 class="logo1">Meraki</h4>
+    </div>
+        </div>
+        <div>
+            <a class="pag1" href="Inicio.html">Inicio</a>
+            <a class="pag1" href="">Categorias</a>
+            <a class="pag1" href="">Noticias</a>
+            <a class="pag1" href="">Eventos</a>
+            <a class="pag1" href="formulário.html">Formulário</a>
+            <a class="pag1" href="">Comunidade</a>
+            <a class="pag1" href="sobreNos.html">Sobre Nós</a>
+                </div>
+                <img class="redes" src="./img/redesSociais.png" alt="">
+        </div>
+        <div class="fim">
+            <div class="textosRodape">
+            <p class="Copyright">Copyright 2024 © Todos os direitos reservados.</p>
+            <p class="PoliticaDePrivacidade">Política de Privacidade</p>
+        </div>
+        </div>
+    </footer>
+        
     <script>
  function enviado() {
             const textarea = document.getElementById("escrever"); 
+            const arquivo = document.getElementById("arquivo");
+
             const mensagem = textarea.value.trim(); // Obtém o valor da mensagem e remove espaços extras
 
             if (mensagem === "") {
@@ -235,9 +260,9 @@
                 // Caso contrário, exibe o alerta de envio e limpa a textarea
                 alert("A mensagem foi enviada!");
                 textarea.value = ""; // Limpa o conteúdo da textarea
+                arquivo.value = "";
             }
         }    
-    
     </script>
 </body>
 </html>
