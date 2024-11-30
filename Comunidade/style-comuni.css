@@ -691,9 +691,12 @@ width: 1350px;
 }
 .mensagem{
     width: 900px;
-    height: 600px;
+    height: 635px;
     background-color: #844d9385;
     border-radius: 20px;
+    position: relative;
+    left: 300px;
+    top: 10px;
 }
 .infor{
     display: flex;
@@ -768,11 +771,11 @@ width: 1350px;
     color: white;
     font-family: "mont2";
     font-size: 15px;
-    width: 165px;
+    width: 145px;
     height: 45px;
     border-radius: 45px;
     cursor: pointer;
     position: relative;
-    top: 130px;
-    right: 50px;
+    top: 75px;
+    left: 720px;
 }
