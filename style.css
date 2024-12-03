@@ -157,7 +157,7 @@ letter-spacing: 2px;
 transition: ease-in-out 0.3s;
 }
 
-a:hover {
+.baixo a:hover {
 font-size: 18px;
 }
 body{
@@ -544,6 +544,11 @@ box-shadow: 0px 0px 128px 45px rgba(119,58,150,0.68);
         width: 140px;
         height: 40px;
         border-radius: 45px;
+    }
+    .link{
+        text-decoration: none;
+        color: white;
+        font-family: "mont2";
     }
     footer {
         background-color: #2A114B;

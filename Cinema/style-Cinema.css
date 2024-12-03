@@ -164,7 +164,7 @@ letter-spacing: 2px;
 transition: ease-in-out 0.3s;
 }
 
-a:hover {
+.baixo a:hover {
 font-size: 18px;
 }
 .banner{
@@ -584,6 +584,12 @@ box-shadow: 0px 0px 105px 45px rgba(137,79,150,0.58);
     right: 50px;
     text-align: end;
 }
+.link{
+    text-decoration: none;
+    color: white;
+    font-family: "mont2";
+}
+
 footer {
     background-color: #2A114B;
     height: 210px;
